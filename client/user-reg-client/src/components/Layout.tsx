@@ -2,11 +2,11 @@ import { NavLink, Outlet }  from "react-router-dom";
 
 function AppLayout() {
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 to-indigo-100">
             <header className="bg-white border-b shadow-sm">
                 <nav className="container mx-auto px-4 h-14 flex items-center justify-between">
                     <h1 className="font-semibold text-blue-600 text-lg">
-                        User Registration
+                        User Registration System
                     </h1>
                     <div className="flex items-center gap-4 text-sm">
                         <NavLink
@@ -37,7 +37,7 @@ function AppLayout() {
                 </nav>
             </header>
 
-            <main className="container mx-auto px-4 py-8">
+            <main className="container mx-auto px-4 flex-1 min-h-0">
                 <Outlet />
             </main>
         </div>
