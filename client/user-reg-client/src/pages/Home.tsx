@@ -3,9 +3,9 @@ import { ArrowRight} from "lucide-react"
 
 export default function Home() {
   return (
-    <div className="flex-1 flex flex-col min-h-0 px-4 py-25">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Hero Section */}
-      <div className="flex-1 flex items-center justify-center px-4 py-10 min-h-0">
+      <div className="flex-1 flex items-center justify-center px-4 py-24 md:py-50">
         <div className="max-w-2xl w-full text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 text-balance mb-6">
             User{" "}

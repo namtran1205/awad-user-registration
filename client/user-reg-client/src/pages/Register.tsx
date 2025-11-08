@@ -41,10 +41,10 @@ function Register() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 px-4 py-10 md:py-6">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 px-4 py-12 md:py-10">
       <div className="max-w-md mx-auto">
         {/* Header */}
-        <div className="text-center mb-5">
+        <div className="text-center mb-6">
           <h1 className="text-4xl font-bold text-gray-900 mb-1 text-balance">Create Account</h1>
           <p className="text-gray-600">Join us and start managing your profile securely</p>
         </div>

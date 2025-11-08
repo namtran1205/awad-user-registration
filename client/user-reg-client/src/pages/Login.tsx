@@ -1,5 +1,3 @@
-"use client"
-
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
@@ -36,10 +34,10 @@ function Login() {
   }
 
   return (
-    <div className="bg-gradient-to-br from-blue-50 to-indigo-100 px-4 py-10 md:py-6">
+    <div className="bg-gradient-to-br from-blue-50 to-indigo-100 px-4 py-12 md:py-10">
       <div className="max-w-md mx-auto">
         {/* Header */}
-        <div className="text-center mb-5">
+        <div className="text-center mb-6">
           <h1 className="text-4xl font-bold text-gray-900 mb-1 text-balance">Welcome</h1>
           <p className="text-gray-600">Sign in to your account to continue</p>
         </div>
@@ -110,7 +108,7 @@ function Login() {
           </form>
 
           {/* Divider */}
-          <div className="relative my-5">
+          <div className="relative my-6">
             <div className="absolute inset-0 flex items-center">
               <div className="w-full border-t border-gray-200"></div>
             </div>
@@ -129,7 +127,7 @@ function Login() {
         </div>
 
         {/* Back to Home */}
-        <div className="text-center mt-4">
+        <div className="text-center mt-6">
           <Link
             to="/"
             className="text-blue-600 hover:text-blue-700 font-medium flex items-center justify-center gap-1"
