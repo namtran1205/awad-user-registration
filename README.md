@@ -22,6 +22,12 @@ Backend (`server/user-reg`):
 Frontend (`client/user-reg-client`):
 - VITE_API_URL — base URL for backend (see `client/.env`)
 
+## Clone the repository:
+
+```powershell
+git clone https://github.com/namtran1205/awad-user-registration.git
+```
+
 ## Install
 
 Open PowerShell and run:
