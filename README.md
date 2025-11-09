@@ -1,5 +1,4 @@
-# IA03 — User Registration (monorepo)
-
+# IA03 — User Registration
 Short instructions to install and run the backend and frontend locally.
 
 ## Layout
