@@ -1,9 +1,9 @@
-# IA03 — User Registration
-Short instructions to install and run the backend and frontend locally.
+# IA03 — User Registration System
+Instructions to install and run the backend and frontend locally.
 
 ## Layout
-- Backend (Nest + Mongoose): `server/user-reg` — see [server package.json].  
-- Frontend (React + Vite): `client/user-reg-client` — see [client package.json] and [main.tsx].
+- Backend (Nest + Mongoose): `server/user-reg`.  
+- Frontend (React + Vite): `client/user-reg-client`.
 
 ## Prerequisites
 - Node.js (>=18 recommended)
